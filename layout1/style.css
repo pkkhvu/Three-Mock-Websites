@@ -1,0 +1,149 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+  body {
+    background-color: grey;
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  header {
+    width: 100%;
+    height: 50px;
+    background: yellow;
+    color: black;
+  }
+  
+  header nav ul li{
+    float: left;
+    width: 25%;
+    list-style: none;
+  
+  }
+  
+  main section .one {
+    background-color: blue;
+  }
+  
+  header nav ul li .hire-us {
+    margin-left: -400px;
+  }
+  
+  header nav ul li img {
+    margin-left: -70px;
+  }
+  
+  header nav ul li .donate {
+    margin-left: 150px;
+  }
+  
+  main section .one {
+    height: 500px;
+    width: 100%;
+    float: left;
+  }
+  
+  main section > h3 {
+    width: 80%;
+    height: 50px;
+    margin-left: 900px;
+  }
+  
+  main section > p {
+    float: left;
+    width: 80%;
+    height: 50px;
+    margin-left: 200px;
+  
+  }
+  
+  main section iframe {
+    float: left;
+    width: 20%;
+    height: 300px;
+    margin-left: 700px;
+  }
+  
+  main section > span {
+    height: 100px;
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 850px;
+  }
+  
+  main .same {
+    background: white;
+    width: 100%;
+    height: 300px;
+    clear: both;
+    padding-top: 100px;
+  }
+  
+  main .images {
+    height: 500px;
+    float: left;
+    
+  }
+  
+  main section .split {
+    float: left;
+    width: 50%;
+    height: 100%;
+  }
+  
+  
+  
+  footer {
+    height: 300px;
+    width: 100%;
+  }
+  
+  
+  footer section {
+    border: 2px solid black;
+    float: left;
+  }
+  
+  .links, .contact-info {
+    height: 80%;
+    width: 25%;
+  }
+  
+  .links {
+    margin-right: 950px;
+  }
+  
+  footer section .line {
+    height: 20%;
+    width: 100%;
+  }
+  
+  
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
