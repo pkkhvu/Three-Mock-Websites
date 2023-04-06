@@ -22,7 +22,7 @@
 /*******************************************/
 
 body {
-  background-color: blue;
+  background-color: lightblue;
 }
 
 
@@ -38,9 +38,74 @@ header {
 }
 
 header nav ul li {
+  height: 100%;
   float: left;
-  width: 10%;
+  width: 15%;
+  list-style: none;
+  display: block;
 }
+
+header nav ul .button{
+  float: right;
+}
+
+.login1 {
+  padding-right: -50px;
+}
+
+
+
+.hero {
+  height: 500px;
+  width: 100%;
+  border: 2px solid black;
+  background-color: white;
+}
+
+main section {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+main > section.wording {
+  padding-left: 500px;
+}
+
+.wording, .image {
+  border: 2px solid black;
+}
+
+.columns {
+  float: left;
+  height: 200px;
+  width: 100%;
+  border: 2px solid black;
+}
+
+section.column-1, section.column-2, section.column-3, section.column-4 {
+  float: left;
+  width: 25%;
+  border: 2px solid black;
+  height: 100%;
+}
+
+section.filler {
+  clear: both;
+  background-color: white;
+  height: 200px;
+  width: 100%;
+}
+
+section.filler h1, section.filler p {
+  float: left;
+  width: 100%;
+  margin-left: 100px;
+}
+
+
+
+
 
 /*
 footer {
